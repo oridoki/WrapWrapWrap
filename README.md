@@ -12,6 +12,18 @@ Add Wrap Wrap Wrap in your composer.json:
 
 ```json
 {
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "Oridoki/WrapWrapWrap",
+            "version": "master",
+            "source": {
+                "url": "git@github.com:oridoki/WrapWrapWrap.git",
+                "type": "git",
+                "reference": "master"
+            }
+        }
+    }],
     "require": {
         "Oridoki/WrapWrapWrap": "*"
     }
